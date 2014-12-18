@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginHomeViewController">
+            <connections>
+                <outlet property="accessTokenLabel" destination="uhi-SQ-A4p" id="PXg-Gu-hgB"/>
+                <outlet property="expirationDateLabel" destination="iGU-k9-pXp" id="d10-rT-Lja"/>
+                <outlet property="loginButton" destination="IIJ-sk-Odh" id="NhS-pD-DSd"/>
+                <outlet property="nickNameLabel" destination="pfd-kd-S2L" id="e17-Ap-jQU"/>
+                <outlet property="openIdLabel" destination="wtt-xY-kss" id="5jx-mT-I1E"/>
+                <outlet property="partraitImage" destination="5vK-i0-ecj" id="FXj-LZ-tet"/>
+                <outlet property="resultLabel" destination="qn1-CS-VOc" id="MW2-mi-oQs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIJ-sk-Odh">
+                    <rect key="frame" x="273" y="462" width="54" height="30"/>
+                    <state key="normal" title="QQ登陆">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickTencentOAuth:" destination="-1" eventType="touchUpInside" id="fij-gG-7CO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="返回结果：" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qn1-CS-VOc">
+                    <rect key="frame" x="258" y="30" width="85" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="accessToken" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-SQ-A4p">
+                    <rect key="frame" x="258" y="59" width="84" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="openId" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtt-xY-kss">
+                    <rect key="frame" x="278" y="88" width="45" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="expirationDate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGU-k9-pXp">
+                    <rect key="frame" x="253" y="117" width="94" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5vK-i0-ecj">
+                    <rect key="frame" x="250" y="158" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="2aI-hf-khO"/>
+                        <constraint firstAttribute="width" constant="100" id="fd9-E4-fMa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昵称" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfd-kd-S2L">
+                    <rect key="frame" x="283" y="266" width="34" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wtt-xY-kss" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="88" id="2pO-w7-12h"/>
+                <constraint firstItem="iGU-k9-pXp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="117" id="5Mx-Me-62n"/>
+                <constraint firstAttribute="centerX" secondItem="iGU-k9-pXp" secondAttribute="centerX" id="76c-kh-7Kw"/>
+                <constraint firstItem="uhi-SQ-A4p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="59" id="CrB-qB-dMR"/>
+                <constraint firstAttribute="centerX" secondItem="pfd-kd-S2L" secondAttribute="centerX" id="HDc-Wv-JAQ"/>
+                <constraint firstItem="qn1-CS-VOc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="JXh-7D-1Qg"/>
+                <constraint firstAttribute="centerX" secondItem="wtt-xY-kss" secondAttribute="centerX" id="LeY-qB-2rg"/>
+                <constraint firstAttribute="centerX" secondItem="IIJ-sk-Odh" secondAttribute="centerX" id="MRH-mq-cb6"/>
+                <constraint firstAttribute="bottom" secondItem="IIJ-sk-Odh" secondAttribute="bottom" constant="108" id="SW0-gJ-R6E"/>
+                <constraint firstAttribute="centerX" secondItem="5vK-i0-ecj" secondAttribute="centerX" id="cdP-Ta-s6o"/>
+                <constraint firstAttribute="centerX" secondItem="qn1-CS-VOc" secondAttribute="centerX" id="eRj-ia-UlI"/>
+                <constraint firstItem="5vK-i0-ecj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="158" id="kkB-GG-Mue"/>
+                <constraint firstItem="pfd-kd-S2L" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="266" id="oRz-NP-aeg"/>
+                <constraint firstAttribute="centerX" secondItem="uhi-SQ-A4p" secondAttribute="centerX" id="xTy-i8-EuQ"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
