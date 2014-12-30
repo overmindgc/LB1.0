@@ -15,6 +15,7 @@
 #import "UIFont+LVBFont.h"
 #import "AppMacro.h"
 #import "AppConsts.h"
+#import "LVBUserInfo.h"
 
 #endif
 

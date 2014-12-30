@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0A929D1A5250A0002BC4BD /* QQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A929C1A5250A0002BC4BD /* QQLoginViewController.m */; };
+		7B0A92A01A5274B7002BC4BD /* LVBRoundCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A929F1A5274B7002BC4BD /* LVBRoundCornerButton.m */; };
+		7B0A92A51A529A43002BC4BD /* PhoneRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A92A31A529A43002BC4BD /* PhoneRegisterViewController.m */; };
+		7B0A92A61A529A43002BC4BD /* PhoneRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A92A41A529A43002BC4BD /* PhoneRegisterViewController.xib */; };
+		7B0A92AA1A52AC21002BC4BD /* PhoneLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A92A81A52AC21002BC4BD /* PhoneLoginViewController.m */; };
+		7B0A92AB1A52AC21002BC4BD /* PhoneLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A92A91A52AC21002BC4BD /* PhoneLoginViewController.xib */; };
+		7B0A92AF1A52ACAA002BC4BD /* UserInfoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A92AD1A52ACAA002BC4BD /* UserInfoEditViewController.m */; };
+		7B0A92B01A52ACAA002BC4BD /* UserInfoEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A92AE1A52ACAA002BC4BD /* UserInfoEditViewController.xib */; };
+		7B0A92B41A52ACC8002BC4BD /* PasswordBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A92B21A52ACC8002BC4BD /* PasswordBackViewController.m */; };
+		7B0A92B51A52ACC8002BC4BD /* PasswordBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A92B31A52ACC8002BC4BD /* PasswordBackViewController.xib */; };
+		7B0A92B91A52AD0E002BC4BD /* PasswordChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A92B71A52AD0E002BC4BD /* PasswordChangeViewController.m */; };
+		7B0A92BA1A52AD0E002BC4BD /* PasswordChangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0A92B81A52AD0E002BC4BD /* PasswordChangeViewController.xib */; };
 		7B182E381A2C54DB006D16D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B182E371A2C54DB006D16D8 /* main.m */; };
 		7B182E3B1A2C54DB006D16D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B182E3A1A2C54DB006D16D8 /* AppDelegate.m */; };
 		7B182E3E1A2C54DB006D16D8 /* LvBan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B182E3C1A2C54DB006D16D8 /* LvBan.xcdatamodeld */; };
@@ -24,6 +36,7 @@
 		7B1B31841A401308008AB8C0 /* AppConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B31831A401308008AB8C0 /* AppConsts.m */; };
 		7B1B318E1A401CB9008AB8C0 /* TimeLineTestModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B318D1A401CB9008AB8C0 /* TimeLineTestModelManager.m */; };
 		7BCC80031A42801A00986785 /* ButtonWithNumTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC80021A42801A00986785 /* ButtonWithNumTipView.m */; };
+		7BD1DEA11A4D3CDE009BA898 /* LVBUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD1DEA01A4D3CDE009BA898 /* LVBUserInfo.m */; };
 		7BDD549F1A3E9A2C0063E768 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD547B1A3E9A2C0063E768 /* AFHTTPRequestOperation.m */; };
 		7BDD54A01A3E9A2C0063E768 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD547D1A3E9A2C0063E768 /* AFHTTPRequestOperationManager.m */; };
 		7BDD54A11A3E9A2C0063E768 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD547F1A3E9A2C0063E768 /* AFHTTPSessionManager.m */; };
@@ -78,6 +91,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B0A929B1A5250A0002BC4BD /* QQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQLoginViewController.h; sourceTree = "<group>"; };
+		7B0A929C1A5250A0002BC4BD /* QQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQLoginViewController.m; sourceTree = "<group>"; };
+		7B0A929E1A5274B7002BC4BD /* LVBRoundCornerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBRoundCornerButton.h; sourceTree = "<group>"; };
+		7B0A929F1A5274B7002BC4BD /* LVBRoundCornerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBRoundCornerButton.m; sourceTree = "<group>"; };
+		7B0A92A21A529A43002BC4BD /* PhoneRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneRegisterViewController.h; sourceTree = "<group>"; };
+		7B0A92A31A529A43002BC4BD /* PhoneRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneRegisterViewController.m; sourceTree = "<group>"; };
+		7B0A92A41A529A43002BC4BD /* PhoneRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneRegisterViewController.xib; sourceTree = "<group>"; };
+		7B0A92A71A52AC21002BC4BD /* PhoneLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneLoginViewController.h; sourceTree = "<group>"; };
+		7B0A92A81A52AC21002BC4BD /* PhoneLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneLoginViewController.m; sourceTree = "<group>"; };
+		7B0A92A91A52AC21002BC4BD /* PhoneLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneLoginViewController.xib; sourceTree = "<group>"; };
+		7B0A92AC1A52ACAA002BC4BD /* UserInfoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoEditViewController.h; sourceTree = "<group>"; };
+		7B0A92AD1A52ACAA002BC4BD /* UserInfoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoEditViewController.m; sourceTree = "<group>"; };
+		7B0A92AE1A52ACAA002BC4BD /* UserInfoEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoEditViewController.xib; sourceTree = "<group>"; };
+		7B0A92B11A52ACC8002BC4BD /* PasswordBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordBackViewController.h; sourceTree = "<group>"; };
+		7B0A92B21A52ACC8002BC4BD /* PasswordBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordBackViewController.m; sourceTree = "<group>"; };
+		7B0A92B31A52ACC8002BC4BD /* PasswordBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordBackViewController.xib; sourceTree = "<group>"; };
+		7B0A92B61A52AD0E002BC4BD /* PasswordChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordChangeViewController.h; sourceTree = "<group>"; };
+		7B0A92B71A52AD0E002BC4BD /* PasswordChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordChangeViewController.m; sourceTree = "<group>"; };
+		7B0A92B81A52AD0E002BC4BD /* PasswordChangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordChangeViewController.xib; sourceTree = "<group>"; };
 		7B182E321A2C54DB006D16D8 /* LvBan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvBan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B182E361A2C54DB006D16D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B182E371A2C54DB006D16D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +140,8 @@
 		7B1B318D1A401CB9008AB8C0 /* TimeLineTestModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTestModelManager.m; sourceTree = "<group>"; };
 		7BCC80011A42801A00986785 /* ButtonWithNumTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonWithNumTipView.h; sourceTree = "<group>"; };
 		7BCC80021A42801A00986785 /* ButtonWithNumTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonWithNumTipView.m; sourceTree = "<group>"; };
+		7BD1DE9F1A4D3CDE009BA898 /* LVBUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBUserInfo.h; sourceTree = "<group>"; };
+		7BD1DEA01A4D3CDE009BA898 /* LVBUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBUserInfo.m; sourceTree = "<group>"; };
 		7BDD547A1A3E9A2C0063E768 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		7BDD547B1A3E9A2C0063E768 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		7BDD547C1A3E9A2C0063E768 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -211,6 +245,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0A92A11A5274BF002BC4BD /* RoundCornerButton */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A929E1A5274B7002BC4BD /* LVBRoundCornerButton.h */,
+				7B0A929F1A5274B7002BC4BD /* LVBRoundCornerButton.m */,
+			);
+			name = RoundCornerButton;
+			sourceTree = "<group>";
+		};
+		7B0A92BB1A52AD9D002BC4BD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A92A71A52AC21002BC4BD /* PhoneLoginViewController.h */,
+				7B0A92A81A52AC21002BC4BD /* PhoneLoginViewController.m */,
+				7B0A92A91A52AC21002BC4BD /* PhoneLoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		7B0A92BC1A52ADBD002BC4BD /* QQLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A929B1A5250A0002BC4BD /* QQLoginViewController.h */,
+				7B0A929C1A5250A0002BC4BD /* QQLoginViewController.m */,
+			);
+			name = QQLogin;
+			sourceTree = "<group>";
+		};
+		7B0A92BD1A52ADEC002BC4BD /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A92A21A529A43002BC4BD /* PhoneRegisterViewController.h */,
+				7B0A92A31A529A43002BC4BD /* PhoneRegisterViewController.m */,
+				7B0A92A41A529A43002BC4BD /* PhoneRegisterViewController.xib */,
+				7B0A92AC1A52ACAA002BC4BD /* UserInfoEditViewController.h */,
+				7B0A92AD1A52ACAA002BC4BD /* UserInfoEditViewController.m */,
+				7B0A92AE1A52ACAA002BC4BD /* UserInfoEditViewController.xib */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		7B0A92BE1A52AE34002BC4BD /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				7B0A92B11A52ACC8002BC4BD /* PasswordBackViewController.h */,
+				7B0A92B21A52ACC8002BC4BD /* PasswordBackViewController.m */,
+				7B0A92B31A52ACC8002BC4BD /* PasswordBackViewController.xib */,
+				7B0A92B61A52AD0E002BC4BD /* PasswordChangeViewController.h */,
+				7B0A92B71A52AD0E002BC4BD /* PasswordChangeViewController.m */,
+				7B0A92B81A52AD0E002BC4BD /* PasswordChangeViewController.xib */,
+			);
+			name = Password;
+			sourceTree = "<group>";
+		};
 		7B182E291A2C54DB006D16D8 = {
 			isa = PBXGroup;
 			children = (
@@ -502,6 +590,7 @@
 		7BEC696D1A2EA390006E2131 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				7B0A92A11A5274BF002BC4BD /* RoundCornerButton */,
 				7BCC80001A42800B00986785 /* ButtonWithNumTip */,
 			);
 			name = CustomUI;
@@ -512,6 +601,8 @@
 			children = (
 				7B1B31821A401308008AB8C0 /* AppConsts.h */,
 				7B1B31831A401308008AB8C0 /* AppConsts.m */,
+				7BD1DE9F1A4D3CDE009BA898 /* LVBUserInfo.h */,
+				7BD1DEA01A4D3CDE009BA898 /* LVBUserInfo.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -527,6 +618,10 @@
 		7BEC69761A2EA4E2006E2131 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7B0A92BB1A52AD9D002BC4BD /* Login */,
+				7B0A92BC1A52ADBD002BC4BD /* QQLogin */,
+				7B0A92BD1A52ADEC002BC4BD /* Register */,
+				7B0A92BE1A52AE34002BC4BD /* Password */,
 				7BEC69881A2EDE7A006E2131 /* LoginHomeViewController.h */,
 				7BEC69891A2EDE7A006E2131 /* LoginHomeViewController.m */,
 				7BEC698A1A2EDE7A006E2131 /* LoginHomeViewController.xib */,
@@ -674,11 +769,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BEC69A41A2F009A006E2131 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				7B0A92AB1A52AC21002BC4BD /* PhoneLoginViewController.xib in Resources */,
+				7B0A92B51A52ACC8002BC4BD /* PasswordBackViewController.xib in Resources */,
+				7B0A92A61A529A43002BC4BD /* PhoneRegisterViewController.xib in Resources */,
 				7B182E5F1A2C553A006D16D8 /* Default-568h@2x.png in Resources */,
 				7B182E491A2C54DB006D16D8 /* LaunchScreen.xib in Resources */,
 				7B1B317F1A40112D008AB8C0 /* SVProgressHUD.bundle in Resources */,
+				7B0A92B01A52ACAA002BC4BD /* UserInfoEditViewController.xib in Resources */,
 				7B1B31751A400919008AB8C0 /* profile-image-placeholder.png in Resources */,
 				7B1B31761A400919008AB8C0 /* profile-image-placeholder@2x.png in Resources */,
+				7B0A92BA1A52AD0E002BC4BD /* PasswordChangeViewController.xib in Resources */,
 				7B182E461A2C54DB006D16D8 /* Images.xcassets in Resources */,
 				7BEC698C1A2EDE7A006E2131 /* LoginHomeViewController.xib in Resources */,
 			);
@@ -702,6 +802,8 @@
 				7B1B318E1A401CB9008AB8C0 /* TimeLineTestModelManager.m in Sources */,
 				7BDD549F1A3E9A2C0063E768 /* AFHTTPRequestOperation.m in Sources */,
 				7B182E3B1A2C54DB006D16D8 /* AppDelegate.m in Sources */,
+				7B0A92A01A5274B7002BC4BD /* LVBRoundCornerButton.m in Sources */,
+				7B0A92B91A52AD0E002BC4BD /* PasswordChangeViewController.m in Sources */,
 				7BEC698B1A2EDE7A006E2131 /* LoginHomeViewController.m in Sources */,
 				7BCC80031A42801A00986785 /* ButtonWithNumTipView.m in Sources */,
 				7B1B31801A40112D008AB8C0 /* SVProgressHUD.m in Sources */,
@@ -709,16 +811,20 @@
 				7BDD54BD1A3ED5050063E768 /* BaseNetworking.m in Sources */,
 				7BEC69871A2ED8A3006E2131 /* LVBUILabel.m in Sources */,
 				7BDD54A81A3E9A2C0063E768 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				7B0A92AF1A52ACAA002BC4BD /* UserInfoEditViewController.m in Sources */,
 				7BDD54A71A3E9A2C0063E768 /* AFURLSessionManager.m in Sources */,
 				7BDD54A11A3E9A2C0063E768 /* AFHTTPSessionManager.m in Sources */,
 				7B1B31811A40112D008AB8C0 /* CHTumblrMenuView.m in Sources */,
 				7B1B31841A401308008AB8C0 /* AppConsts.m in Sources */,
+				7BD1DEA11A4D3CDE009BA898 /* LVBUserInfo.m in Sources */,
 				7BEC69811A2EB362006E2131 /* UIFont+LVBFont.m in Sources */,
 				7BDD54A21A3E9A2C0063E768 /* AFNetworkReachabilityManager.m in Sources */,
+				7B0A92B41A52ACC8002BC4BD /* PasswordBackViewController.m in Sources */,
 				7BEC69751A2EA43C006E2131 /* LVBTableViewCell.m in Sources */,
 				7BDD54AC1A3E9A2C0063E768 /* UIImageView+AFNetworking.m in Sources */,
 				7BF2A5C51A414BC0007EB09F /* PostTest.m in Sources */,
 				7BDD54AD1A3E9A2C0063E768 /* UIProgressView+AFNetworking.m in Sources */,
+				7B0A92AA1A52AC21002BC4BD /* PhoneLoginViewController.m in Sources */,
 				7BDD54A61A3E9A2C0063E768 /* AFURLResponseSerialization.m in Sources */,
 				7BDD54AE1A3E9A2C0063E768 /* UIRefreshControl+AFNetworking.m in Sources */,
 				7BDD54A51A3E9A2C0063E768 /* AFURLRequestSerialization.m in Sources */,
@@ -728,6 +834,7 @@
 				7BDD54A01A3E9A2C0063E768 /* AFHTTPRequestOperationManager.m in Sources */,
 				7B1B31711A400068008AB8C0 /* PostTableViewCell.m in Sources */,
 				7BEC697E1A2EB0ED006E2131 /* LVBUIView.m in Sources */,
+				7B0A92A51A529A43002BC4BD /* PhoneRegisterViewController.m in Sources */,
 				7BEC69721A2EA41F006E2131 /* LVBViewController.m in Sources */,
 				7BDD54A31A3E9A2C0063E768 /* AFSecurityPolicy.m in Sources */,
 				7B182E381A2C54DB006D16D8 /* main.m in Sources */,
@@ -735,6 +842,7 @@
 				7BEC69841A2ED894006E2131 /* LVBUIButton.m in Sources */,
 				7B182E3E1A2C54DB006D16D8 /* LvBan.xcdatamodeld in Sources */,
 				7BDD54B91A3ECD980063E768 /* TimelineTestService.m in Sources */,
+				7B0A929D1A5250A0002BC4BD /* QQLoginViewController.m in Sources */,
 				7BDD54AA1A3E9A2C0063E768 /* UIAlertView+AFNetworking.m in Sources */,
 				7BDD54B31A3EAD5A0063E768 /* AFAppDotNetAPIClient.m in Sources */,
 			);
