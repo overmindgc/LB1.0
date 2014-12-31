@@ -8,6 +8,10 @@
 
 #import "LVBViewController.h"
 
-@interface UserInfoEditViewController : LVBViewController
+@interface UserInfoEditViewController : LVBViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *downBarButton;
+@property (weak, nonatomic) IBOutlet LVBUIImageView *headImageView;
+@property (weak, nonatomic) IBOutlet LVBUITextField *nickNameText;
+@property (weak, nonatomic) IBOutlet LVBUITextField *passwordText;
 
 @end

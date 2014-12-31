@@ -47,6 +47,7 @@
     CGPoint originLogoPoint = self.logoImage.layer.position;
     self.logoImage.layer.position = CGPointMake(originLogoPoint.x, originLogoPoint.y - 100);
     [UIView animateWithDuration:0.6 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        [self.logoImage setHidden:NO];
         [self.logoImage setAlpha:1.0];
         self.logoImage.layer.position = originLogoPoint;
     } completion:^(BOOL finished) {
@@ -68,7 +69,8 @@
 }
 
 - (IBAction)loginAction:(id)sender {
-    
+    PhoneLoginViewController *phoneLoginVC = [[PhoneLoginViewController alloc] init];
+    [self.navigationController pushViewController:phoneLoginVC animated:YES];
 }
 
 #pragma QQLoginDelegate

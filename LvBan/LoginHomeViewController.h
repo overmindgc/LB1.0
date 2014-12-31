@@ -7,14 +7,15 @@
 //
 
 #import "LVBViewController.h"
-#import "LVBRoundCornerButton.h"
 #import <TencentOpenAPI/TencentOAuth.h>
 #import "QQLoginViewController.h"
 #import "PhoneRegisterViewController.h"
+#import "PhoneLoginViewController.h"
+#import "LVBRoundCornerButton.h"
 
 @interface LoginHomeViewController : LVBViewController <QQLoginDelegate>
 
-@property (weak, nonatomic) IBOutlet UIImageView *logoImage;
+@property (weak, nonatomic) IBOutlet LVBUIImageView *logoImage;
 @property (weak, nonatomic) IBOutlet LVBRoundCornerButton *qqLoginButton;
 @property (weak, nonatomic) IBOutlet LVBUIButton *loginButton;
 @property (weak, nonatomic) IBOutlet LVBRoundCornerButton *phoneRegisterButton;

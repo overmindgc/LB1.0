@@ -17,6 +17,14 @@
 #import "AppConsts.h"
 #import "LVBUserInfo.h"
 
+//引入自定义系统基础组件
+#import "LVBUIButton.h"
+#import "LVBUILabel.h"
+#import "LVBUITextField.h"
+#import "LVBUIView.h"
+#import "LVBUIImageView.h"
+#import "LVBTableViewCell.h"
+
 #endif
 
 

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <TencentOpenAPI/TencentOAuth.h>
 #import "LoginHomeViewController.h"
+#import "HomePageViewController.h"
 #import "GlobalTimelineViewController.h"
 #import "AFNetworkActivityIndicatorManager.h"
 #import "SVProgressHUD.h"
@@ -23,7 +24,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor appMainColor];
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSLog(@"沙盒地址：%@",paths);
@@ -38,13 +39,10 @@
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
     
 //    UITableViewController *viewController = [[GlobalTimelineViewController alloc] initWithStyle:UITableViewStylePlain];
-    LoginHomeViewController *loginHomeVC = [[LoginHomeViewController alloc] init];
-    
 //    self.navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:loginHomeVC];
-    self.navigationController.navigationBarHidden = YES;
     
-    self.window.rootViewController = nil;
+    [self showLoginView];
+    
     self.window.rootViewController = self.navigationController;
     
     [self.window makeKeyAndVisible];
@@ -75,6 +73,37 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+
+- (void)showHomePageView
+{
+    HomePageViewController *homePageVC = [[HomePageViewController alloc] init];
+    if (!self.navigationController) {
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:homePageVC];
+        self.navigationController.navigationBarHidden = YES;
+    } else {
+        NSMutableArray * viewControllers = [self.navigationController.viewControllers mutableCopy];
+        [viewControllers removeAllObjects];
+        [viewControllers addObject:homePageVC];
+        [self.navigationController setViewControllers:viewControllers animated:YES];
+    }
+}
+
+- (void)showLoginView
+{
+    LoginHomeViewController *loginHomeVC = [[LoginHomeViewController alloc] init];
+    if (!self.navigationController) {
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:loginHomeVC];
+        self.navigationController.navigationBarHidden = YES;
+    } else {
+        NSMutableArray * viewControllers = [self.navigationController.viewControllers mutableCopy];
+        [viewControllers removeAllObjects];
+        [viewControllers addObject:loginHomeVC];
+        [self.navigationController setViewControllers:viewControllers animated:YES];
+    }
+    
+}
+
 
 #pragma mark QQ_Open_Api
 

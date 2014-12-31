@@ -21,6 +21,8 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+- (void)showHomePageView;
+- (void)showLoginView;
 
 @end
 

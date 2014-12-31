@@ -7,6 +7,7 @@
 //
 
 #import "PhoneLoginViewController.h"
+#import "AppDelegate.h"
 
 @interface PhoneLoginViewController ()
 
@@ -24,14 +25,35 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+// 触摸背景，关闭键盘
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *touch = [touches anyObject];
+    UIView *view = (UIView *)[touch view];
+    if (view == self.view) {
+        [self.phoneNumText resignFirstResponder];
+        [self.passwordText resignFirstResponder];
+    }
 }
-*/
+
+#pragma mark UITextFieldDelegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];    //主要是[receiver resignFirstResponder]在哪调用就能把receiver对应的键盘往下收
+    return YES;
+}
+
+#pragma mark actions
+- (IBAction)back:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)loginClick:(id)sender {
+    [ApplicationDelegate showHomePageView];
+}
+
+- (IBAction)passwordBackClick:(id)sender {
+    PasswordBackViewController *psBackVC = [[PasswordBackViewController alloc] init];
+    [self.navigationController pushViewController:psBackVC animated:YES];
+}
 
 @end

@@ -78,6 +78,13 @@
 		7BEC69A81A2F13E6006E2131 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEC69A71A2F13E6006E2131 /* libstdc++.dylib */; };
 		7BEC69AA1A2F13F4006E2131 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEC69A91A2F13F4006E2131 /* libz.dylib */; };
 		7BF2A5C51A414BC0007EB09F /* PostTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2A5C41A414BC0007EB09F /* PostTest.m */; };
+		7BFADF451A539E44005E813A /* LVBUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF441A539E44005E813A /* LVBUIImageView.m */; };
+		7BFADF481A539E74005E813A /* LVBUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF471A539E74005E813A /* LVBUITextField.m */; };
+		7BFADF4B1A53A7BD005E813A /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF4A1A53A7BD005E813A /* CommonHelper.m */; };
+		7BFADF8F1A53CB40005E813A /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF8D1A53CB40005E813A /* HomePageViewController.m */; };
+		7BFADF901A53CB40005E813A /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFADF8E1A53CB40005E813A /* HomePageViewController.xib */; };
+		7BFADF951A53CC32005E813A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF921A53CC32005E813A /* DataViewController.m */; };
+		7BFADF961A53CC32005E813A /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF941A53CC32005E813A /* ModelController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +222,19 @@
 		7BEC69A91A2F13F4006E2131 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7BF2A5C31A414BC0007EB09F /* PostTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTest.h; sourceTree = "<group>"; };
 		7BF2A5C41A414BC0007EB09F /* PostTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTest.m; sourceTree = "<group>"; };
+		7BFADF431A539E44005E813A /* LVBUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBUIImageView.h; sourceTree = "<group>"; };
+		7BFADF441A539E44005E813A /* LVBUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBUIImageView.m; sourceTree = "<group>"; };
+		7BFADF461A539E74005E813A /* LVBUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBUITextField.h; sourceTree = "<group>"; };
+		7BFADF471A539E74005E813A /* LVBUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBUITextField.m; sourceTree = "<group>"; };
+		7BFADF491A53A7BD005E813A /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
+		7BFADF4A1A53A7BD005E813A /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
+		7BFADF8C1A53CB40005E813A /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		7BFADF8D1A53CB40005E813A /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		7BFADF8E1A53CB40005E813A /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		7BFADF911A53CC32005E813A /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		7BFADF921A53CC32005E813A /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		7BFADF931A53CC32005E813A /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		7BFADF941A53CC32005E813A /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,7 +306,7 @@
 			name = Register;
 			sourceTree = "<group>";
 		};
-		7B0A92BE1A52AE34002BC4BD /* Password */ = {
+		7B0A92BE1A52AE34002BC4BD /* PasswordBack */ = {
 			isa = PBXGroup;
 			children = (
 				7B0A92B11A52ACC8002BC4BD /* PasswordBackViewController.h */,
@@ -296,7 +316,7 @@
 				7B0A92B71A52AD0E002BC4BD /* PasswordChangeViewController.m */,
 				7B0A92B81A52AD0E002BC4BD /* PasswordChangeViewController.xib */,
 			);
-			name = Password;
+			name = PasswordBack;
 			sourceTree = "<group>";
 		};
 		7B182E291A2C54DB006D16D8 = {
@@ -496,6 +516,13 @@
 		7BDD54B01A3EA4920063E768 /* HomePages */ = {
 			isa = PBXGroup;
 			children = (
+				7BFADF8C1A53CB40005E813A /* HomePageViewController.h */,
+				7BFADF8D1A53CB40005E813A /* HomePageViewController.m */,
+				7BFADF8E1A53CB40005E813A /* HomePageViewController.xib */,
+				7BFADF911A53CC32005E813A /* DataViewController.h */,
+				7BFADF921A53CC32005E813A /* DataViewController.m */,
+				7BFADF931A53CC32005E813A /* ModelController.h */,
+				7BFADF941A53CC32005E813A /* ModelController.m */,
 			);
 			name = HomePages;
 			sourceTree = "<group>";
@@ -603,6 +630,8 @@
 				7B1B31831A401308008AB8C0 /* AppConsts.m */,
 				7BD1DE9F1A4D3CDE009BA898 /* LVBUserInfo.h */,
 				7BD1DEA01A4D3CDE009BA898 /* LVBUserInfo.m */,
+				7BFADF491A53A7BD005E813A /* CommonHelper.h */,
+				7BFADF4A1A53A7BD005E813A /* CommonHelper.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -618,13 +647,13 @@
 		7BEC69761A2EA4E2006E2131 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				7B0A92BB1A52AD9D002BC4BD /* Login */,
-				7B0A92BC1A52ADBD002BC4BD /* QQLogin */,
-				7B0A92BD1A52ADEC002BC4BD /* Register */,
-				7B0A92BE1A52AE34002BC4BD /* Password */,
 				7BEC69881A2EDE7A006E2131 /* LoginHomeViewController.h */,
 				7BEC69891A2EDE7A006E2131 /* LoginHomeViewController.m */,
 				7BEC698A1A2EDE7A006E2131 /* LoginHomeViewController.xib */,
+				7B0A92BB1A52AD9D002BC4BD /* Login */,
+				7B0A92BC1A52ADBD002BC4BD /* QQLogin */,
+				7B0A92BD1A52ADEC002BC4BD /* Register */,
+				7B0A92BE1A52AE34002BC4BD /* PasswordBack */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -657,6 +686,10 @@
 				7BEC69831A2ED894006E2131 /* LVBUIButton.m */,
 				7BEC69851A2ED8A3006E2131 /* LVBUILabel.h */,
 				7BEC69861A2ED8A3006E2131 /* LVBUILabel.m */,
+				7BFADF431A539E44005E813A /* LVBUIImageView.h */,
+				7BFADF441A539E44005E813A /* LVBUIImageView.m */,
+				7BFADF461A539E74005E813A /* LVBUITextField.h */,
+				7BFADF471A539E74005E813A /* LVBUITextField.m */,
 			);
 			name = BaseUI;
 			sourceTree = "<group>";
@@ -776,6 +809,7 @@
 				7B182E491A2C54DB006D16D8 /* LaunchScreen.xib in Resources */,
 				7B1B317F1A40112D008AB8C0 /* SVProgressHUD.bundle in Resources */,
 				7B0A92B01A52ACAA002BC4BD /* UserInfoEditViewController.xib in Resources */,
+				7BFADF901A53CB40005E813A /* HomePageViewController.xib in Resources */,
 				7B1B31751A400919008AB8C0 /* profile-image-placeholder.png in Resources */,
 				7B1B31761A400919008AB8C0 /* profile-image-placeholder@2x.png in Resources */,
 				7B0A92BA1A52AD0E002BC4BD /* PasswordChangeViewController.xib in Resources */,
@@ -802,8 +836,10 @@
 				7B1B318E1A401CB9008AB8C0 /* TimeLineTestModelManager.m in Sources */,
 				7BDD549F1A3E9A2C0063E768 /* AFHTTPRequestOperation.m in Sources */,
 				7B182E3B1A2C54DB006D16D8 /* AppDelegate.m in Sources */,
+				7BFADF951A53CC32005E813A /* DataViewController.m in Sources */,
 				7B0A92A01A5274B7002BC4BD /* LVBRoundCornerButton.m in Sources */,
 				7B0A92B91A52AD0E002BC4BD /* PasswordChangeViewController.m in Sources */,
+				7BFADF481A539E74005E813A /* LVBUITextField.m in Sources */,
 				7BEC698B1A2EDE7A006E2131 /* LoginHomeViewController.m in Sources */,
 				7BCC80031A42801A00986785 /* ButtonWithNumTipView.m in Sources */,
 				7B1B31801A40112D008AB8C0 /* SVProgressHUD.m in Sources */,
@@ -818,6 +854,7 @@
 				7B1B31841A401308008AB8C0 /* AppConsts.m in Sources */,
 				7BD1DEA11A4D3CDE009BA898 /* LVBUserInfo.m in Sources */,
 				7BEC69811A2EB362006E2131 /* UIFont+LVBFont.m in Sources */,
+				7BFADF961A53CC32005E813A /* ModelController.m in Sources */,
 				7BDD54A21A3E9A2C0063E768 /* AFNetworkReachabilityManager.m in Sources */,
 				7B0A92B41A52ACC8002BC4BD /* PasswordBackViewController.m in Sources */,
 				7BEC69751A2EA43C006E2131 /* LVBTableViewCell.m in Sources */,
@@ -831,9 +868,11 @@
 				7BDD54A41A3E9A2C0063E768 /* AFURLConnectionOperation.m in Sources */,
 				7BDD54AB1A3E9A2C0063E768 /* UIButton+AFNetworking.m in Sources */,
 				7BDD54A91A3E9A2C0063E768 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				7BFADF4B1A53A7BD005E813A /* CommonHelper.m in Sources */,
 				7BDD54A01A3E9A2C0063E768 /* AFHTTPRequestOperationManager.m in Sources */,
 				7B1B31711A400068008AB8C0 /* PostTableViewCell.m in Sources */,
 				7BEC697E1A2EB0ED006E2131 /* LVBUIView.m in Sources */,
+				7BFADF8F1A53CB40005E813A /* HomePageViewController.m in Sources */,
 				7B0A92A51A529A43002BC4BD /* PhoneRegisterViewController.m in Sources */,
 				7BEC69721A2EA41F006E2131 /* LVBViewController.m in Sources */,
 				7BDD54A31A3E9A2C0063E768 /* AFSecurityPolicy.m in Sources */,
@@ -841,6 +880,7 @@
 				7BDD54AF1A3E9A2C0063E768 /* UIWebView+AFNetworking.m in Sources */,
 				7BEC69841A2ED894006E2131 /* LVBUIButton.m in Sources */,
 				7B182E3E1A2C54DB006D16D8 /* LvBan.xcdatamodeld in Sources */,
+				7BFADF451A539E44005E813A /* LVBUIImageView.m in Sources */,
 				7BDD54B91A3ECD980063E768 /* TimelineTestService.m in Sources */,
 				7B0A929D1A5250A0002BC4BD /* QQLoginViewController.m in Sources */,
 				7BDD54AA1A3E9A2C0063E768 /* UIAlertView+AFNetworking.m in Sources */,
@@ -916,6 +956,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+				PRODUCT_NAME = "旅伴";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -952,6 +995,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+				PRODUCT_NAME = "旅伴";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

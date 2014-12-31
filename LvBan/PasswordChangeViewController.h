@@ -7,7 +7,12 @@
 //
 
 #import "LVBViewController.h"
+#import "LVBRoundCornerButton.h"
 
-@interface PasswordChangeViewController : LVBViewController
+@interface PasswordChangeViewController : LVBViewController <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet LVBUITextField *passwordOneButton;
+@property (weak, nonatomic) IBOutlet LVBUITextField *passwordTwoButton;
+@property (weak, nonatomic) IBOutlet LVBRoundCornerButton *commitButton;
 
 @end

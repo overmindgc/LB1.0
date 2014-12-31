@@ -7,12 +7,13 @@
 //
 
 #import "LVBViewController.h"
+#import "UserInfoEditViewController.h"
 #import "LVBRoundCornerButton.h"
 
 @interface PhoneRegisterViewController : LVBViewController <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UITextField *phoneText;
-@property (weak, nonatomic) IBOutlet UITextField *verifyText;
-@property (weak, nonatomic) IBOutlet UIButton *getVerifyCodeButton;
+@property (weak, nonatomic) IBOutlet LVBUITextField *phoneText;
+@property (weak, nonatomic) IBOutlet LVBUITextField *verifyText;
+@property (weak, nonatomic) IBOutlet LVBUIButton *getVerifyCodeButton;
 @property (weak, nonatomic) IBOutlet LVBRoundCornerButton *registerButton;
 
 @end

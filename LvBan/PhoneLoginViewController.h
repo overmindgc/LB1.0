@@ -7,7 +7,13 @@
 //
 
 #import "LVBViewController.h"
+#import "LVBRoundCornerButton.h"
+#import "PasswordBackViewController.h"
 
-@interface PhoneLoginViewController : LVBViewController
+@interface PhoneLoginViewController : LVBViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet LVBUITextField *phoneNumText;
 
+@property (weak, nonatomic) IBOutlet LVBUITextField *passwordText;
+@property (weak, nonatomic) IBOutlet LVBUIButton *passwordBackButton;
+@property (weak, nonatomic) IBOutlet LVBRoundCornerButton *loginButton;
 @end

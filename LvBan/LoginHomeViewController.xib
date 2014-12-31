@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Yko-Ia-SC1">
+                <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Yko-Ia-SC1" customClass="LVBUIImageView">
                     <rect key="frame" x="223" y="100" width="155" height="90"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="155" id="5o5-7x-xnp"/>
@@ -64,7 +64,7 @@
                         <constraint firstAttribute="width" constant="150" id="1Dp-KS-CiU"/>
                         <constraint firstAttribute="height" constant="30" id="hKt-7U-Ce9"/>
                     </constraints>
-                    <state key="normal" title="以有账号？现在登录。">
+                    <state key="normal" title="已有账号？现在登录。">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>

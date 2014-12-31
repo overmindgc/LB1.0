@@ -10,12 +10,28 @@
 
 @implementation LVBUIButton
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setLayerStyle];
+    }
+    return self;
 }
-*/
+
+- (id)initWithCoder:(NSCoder*)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        // Initialization code
+        [self setLayerStyle];
+    }
+    return self;
+}
+
+- (void)setLayerStyle
+{
+    self.tintColor = [UIColor appMainColor];
+}
 
 @end
