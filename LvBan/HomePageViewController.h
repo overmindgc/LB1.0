@@ -7,9 +7,10 @@
 //
 
 #import "LVBViewController.h"
+#import "LVBUIScrollView.h"
 
-@interface HomePageViewController : LVBViewController <UIPageViewControllerDelegate>
+@interface HomePageViewController : LVBViewController <UIScrollViewDelegate>
 
-@property (strong, nonatomic) UIPageViewController *pageViewController;
+@property (nonatomic, strong) UIScrollView *scrollView;
 
 @end

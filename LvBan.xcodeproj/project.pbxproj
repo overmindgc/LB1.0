@@ -83,8 +83,15 @@
 		7BFADF4B1A53A7BD005E813A /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF4A1A53A7BD005E813A /* CommonHelper.m */; };
 		7BFADF8F1A53CB40005E813A /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF8D1A53CB40005E813A /* HomePageViewController.m */; };
 		7BFADF901A53CB40005E813A /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFADF8E1A53CB40005E813A /* HomePageViewController.xib */; };
-		7BFADF951A53CC32005E813A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF921A53CC32005E813A /* DataViewController.m */; };
-		7BFADF961A53CC32005E813A /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFADF941A53CC32005E813A /* ModelController.m */; };
+		7BFDA0851A58ED6700942A55 /* LVBUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDA0841A58ED6700942A55 /* LVBUIScrollView.m */; };
+		7BFDA08D1A58EFD600942A55 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDA08B1A58EFD600942A55 /* HomeViewController.m */; };
+		7BFDA08E1A58EFD600942A55 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDA08C1A58EFD600942A55 /* HomeViewController.xib */; };
+		7BFDA0921A58F03700942A55 /* TripListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDA0901A58F03700942A55 /* TripListViewController.m */; };
+		7BFDA0931A58F03700942A55 /* TripListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDA0911A58F03700942A55 /* TripListViewController.xib */; };
+		7BFDA0971A58F06800942A55 /* SingleTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDA0951A58F06800942A55 /* SingleTripViewController.m */; };
+		7BFDA0981A58F06800942A55 /* SingleTripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDA0961A58F06800942A55 /* SingleTripViewController.xib */; };
+		7BFDA09C1A58F09F00942A55 /* NewTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDA09A1A58F09F00942A55 /* NewTripViewController.m */; };
+		7BFDA09D1A58F09F00942A55 /* NewTripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDA09B1A58F09F00942A55 /* NewTripViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,10 +238,20 @@
 		7BFADF8C1A53CB40005E813A /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		7BFADF8D1A53CB40005E813A /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		7BFADF8E1A53CB40005E813A /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
-		7BFADF911A53CC32005E813A /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		7BFADF921A53CC32005E813A /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		7BFADF931A53CC32005E813A /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		7BFADF941A53CC32005E813A /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		7BFDA0831A58ED6700942A55 /* LVBUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBUIScrollView.h; sourceTree = "<group>"; };
+		7BFDA0841A58ED6700942A55 /* LVBUIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBUIScrollView.m; sourceTree = "<group>"; };
+		7BFDA08A1A58EFD600942A55 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7BFDA08B1A58EFD600942A55 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7BFDA08C1A58EFD600942A55 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		7BFDA08F1A58F03700942A55 /* TripListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripListViewController.h; sourceTree = "<group>"; };
+		7BFDA0901A58F03700942A55 /* TripListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripListViewController.m; sourceTree = "<group>"; };
+		7BFDA0911A58F03700942A55 /* TripListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TripListViewController.xib; sourceTree = "<group>"; };
+		7BFDA0941A58F06800942A55 /* SingleTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTripViewController.h; sourceTree = "<group>"; };
+		7BFDA0951A58F06800942A55 /* SingleTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTripViewController.m; sourceTree = "<group>"; };
+		7BFDA0961A58F06800942A55 /* SingleTripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleTripViewController.xib; sourceTree = "<group>"; };
+		7BFDA0991A58F09F00942A55 /* NewTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTripViewController.h; sourceTree = "<group>"; };
+		7BFDA09A1A58F09F00942A55 /* NewTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTripViewController.m; sourceTree = "<group>"; };
+		7BFDA09B1A58F09F00942A55 /* NewTripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTripViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,13 +533,13 @@
 		7BDD54B01A3EA4920063E768 /* HomePages */ = {
 			isa = PBXGroup;
 			children = (
+				7BFDA0891A58EF2600942A55 /* NewTrip */,
+				7BFDA0881A58EF1C00942A55 /* SingleTrip */,
+				7BFDA0871A58EF0E00942A55 /* TripList */,
+				7BFDA0861A58EF0200942A55 /* Home */,
 				7BFADF8C1A53CB40005E813A /* HomePageViewController.h */,
 				7BFADF8D1A53CB40005E813A /* HomePageViewController.m */,
 				7BFADF8E1A53CB40005E813A /* HomePageViewController.xib */,
-				7BFADF911A53CC32005E813A /* DataViewController.h */,
-				7BFADF921A53CC32005E813A /* DataViewController.m */,
-				7BFADF931A53CC32005E813A /* ModelController.h */,
-				7BFADF941A53CC32005E813A /* ModelController.m */,
 			);
 			name = HomePages;
 			sourceTree = "<group>";
@@ -690,6 +707,8 @@
 				7BFADF441A539E44005E813A /* LVBUIImageView.m */,
 				7BFADF461A539E74005E813A /* LVBUITextField.h */,
 				7BFADF471A539E74005E813A /* LVBUITextField.m */,
+				7BFDA0831A58ED6700942A55 /* LVBUIScrollView.h */,
+				7BFDA0841A58ED6700942A55 /* LVBUIScrollView.m */,
 			);
 			name = BaseUI;
 			sourceTree = "<group>";
@@ -718,6 +737,46 @@
 				7BEC69901A2EFF78006E2131 /* TencentOpenAPI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BFDA0861A58EF0200942A55 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7BFDA08A1A58EFD600942A55 /* HomeViewController.h */,
+				7BFDA08B1A58EFD600942A55 /* HomeViewController.m */,
+				7BFDA08C1A58EFD600942A55 /* HomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		7BFDA0871A58EF0E00942A55 /* TripList */ = {
+			isa = PBXGroup;
+			children = (
+				7BFDA08F1A58F03700942A55 /* TripListViewController.h */,
+				7BFDA0901A58F03700942A55 /* TripListViewController.m */,
+				7BFDA0911A58F03700942A55 /* TripListViewController.xib */,
+			);
+			name = TripList;
+			sourceTree = "<group>";
+		};
+		7BFDA0881A58EF1C00942A55 /* SingleTrip */ = {
+			isa = PBXGroup;
+			children = (
+				7BFDA0941A58F06800942A55 /* SingleTripViewController.h */,
+				7BFDA0951A58F06800942A55 /* SingleTripViewController.m */,
+				7BFDA0961A58F06800942A55 /* SingleTripViewController.xib */,
+			);
+			name = SingleTrip;
+			sourceTree = "<group>";
+		};
+		7BFDA0891A58EF2600942A55 /* NewTrip */ = {
+			isa = PBXGroup;
+			children = (
+				7BFDA0991A58F09F00942A55 /* NewTripViewController.h */,
+				7BFDA09A1A58F09F00942A55 /* NewTripViewController.m */,
+				7BFDA09B1A58F09F00942A55 /* NewTripViewController.xib */,
+			);
+			name = NewTrip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -803,11 +862,15 @@
 			files = (
 				7BEC69A41A2F009A006E2131 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				7B0A92AB1A52AC21002BC4BD /* PhoneLoginViewController.xib in Resources */,
+				7BFDA08E1A58EFD600942A55 /* HomeViewController.xib in Resources */,
 				7B0A92B51A52ACC8002BC4BD /* PasswordBackViewController.xib in Resources */,
 				7B0A92A61A529A43002BC4BD /* PhoneRegisterViewController.xib in Resources */,
+				7BFDA0931A58F03700942A55 /* TripListViewController.xib in Resources */,
+				7BFDA0981A58F06800942A55 /* SingleTripViewController.xib in Resources */,
 				7B182E5F1A2C553A006D16D8 /* Default-568h@2x.png in Resources */,
 				7B182E491A2C54DB006D16D8 /* LaunchScreen.xib in Resources */,
 				7B1B317F1A40112D008AB8C0 /* SVProgressHUD.bundle in Resources */,
+				7BFDA09D1A58F09F00942A55 /* NewTripViewController.xib in Resources */,
 				7B0A92B01A52ACAA002BC4BD /* UserInfoEditViewController.xib in Resources */,
 				7BFADF901A53CB40005E813A /* HomePageViewController.xib in Resources */,
 				7B1B31751A400919008AB8C0 /* profile-image-placeholder.png in Resources */,
@@ -836,7 +899,6 @@
 				7B1B318E1A401CB9008AB8C0 /* TimeLineTestModelManager.m in Sources */,
 				7BDD549F1A3E9A2C0063E768 /* AFHTTPRequestOperation.m in Sources */,
 				7B182E3B1A2C54DB006D16D8 /* AppDelegate.m in Sources */,
-				7BFADF951A53CC32005E813A /* DataViewController.m in Sources */,
 				7B0A92A01A5274B7002BC4BD /* LVBRoundCornerButton.m in Sources */,
 				7B0A92B91A52AD0E002BC4BD /* PasswordChangeViewController.m in Sources */,
 				7BFADF481A539E74005E813A /* LVBUITextField.m in Sources */,
@@ -853,8 +915,9 @@
 				7B1B31811A40112D008AB8C0 /* CHTumblrMenuView.m in Sources */,
 				7B1B31841A401308008AB8C0 /* AppConsts.m in Sources */,
 				7BD1DEA11A4D3CDE009BA898 /* LVBUserInfo.m in Sources */,
+				7BFDA0851A58ED6700942A55 /* LVBUIScrollView.m in Sources */,
+				7BFDA0971A58F06800942A55 /* SingleTripViewController.m in Sources */,
 				7BEC69811A2EB362006E2131 /* UIFont+LVBFont.m in Sources */,
-				7BFADF961A53CC32005E813A /* ModelController.m in Sources */,
 				7BDD54A21A3E9A2C0063E768 /* AFNetworkReachabilityManager.m in Sources */,
 				7B0A92B41A52ACC8002BC4BD /* PasswordBackViewController.m in Sources */,
 				7BEC69751A2EA43C006E2131 /* LVBTableViewCell.m in Sources */,
@@ -864,7 +927,9 @@
 				7B0A92AA1A52AC21002BC4BD /* PhoneLoginViewController.m in Sources */,
 				7BDD54A61A3E9A2C0063E768 /* AFURLResponseSerialization.m in Sources */,
 				7BDD54AE1A3E9A2C0063E768 /* UIRefreshControl+AFNetworking.m in Sources */,
+				7BFDA0921A58F03700942A55 /* TripListViewController.m in Sources */,
 				7BDD54A51A3E9A2C0063E768 /* AFURLRequestSerialization.m in Sources */,
+				7BFDA09C1A58F09F00942A55 /* NewTripViewController.m in Sources */,
 				7BDD54A41A3E9A2C0063E768 /* AFURLConnectionOperation.m in Sources */,
 				7BDD54AB1A3E9A2C0063E768 /* UIButton+AFNetworking.m in Sources */,
 				7BDD54A91A3E9A2C0063E768 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -885,6 +950,7 @@
 				7B0A929D1A5250A0002BC4BD /* QQLoginViewController.m in Sources */,
 				7BDD54AA1A3E9A2C0063E768 /* UIAlertView+AFNetworking.m in Sources */,
 				7BDD54B31A3EAD5A0063E768 /* AFAppDotNetAPIClient.m in Sources */,
+				7BFDA08D1A58EFD600942A55 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
